@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Link Shortener</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text__container">
+            <h2>Shorten Your Link</h2>
+            <p>Paste your link below, and we will provide you with a shortened version.</p>
+        </div>
+
+        <div class="error__msg">
+            <span id="error">You must paste a valid URL</span>
+        </div>
+
+        <form class="shortener__container">
+            <div class="input__container">
+                <input type="text" id="shortener" placeholder="Paste your link here">
+                <button id="submit__btn">Shorten</button>
+            </div>
+        </form>
+
+        <div class="links__container"></div>
+
+        <div class="toggle-mode">
+            <button id="toggleMode">Toggle Dark Mode</button>
+        </div>
+
+        <div class="clear-all">
+            <button id="clearAll">Clear All Links</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
