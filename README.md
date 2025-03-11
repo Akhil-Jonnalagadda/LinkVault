@@ -22,7 +22,7 @@ A simple and efficient URL shortener that allows you to:
 ##  Project Setup
 1. Clone the repository:
    ```sh
-https://github.com/Akhil-Jonnalagadda/LinkVault.git
+**https://github.com/Akhil-Jonnalagadda/LinkVault.git**
    ```
 2. Open `index.html` in your browser.
 
